@@ -1,10 +1,10 @@
 require("dotenv").config()
 require("./config/db")()
 const express = require("express")
-const express_async_handler = require('express-async-handler')
-const webtoken = require("jsonwebtoken")
-const cors = require("cors")
-const bcryptjs = require("bcryptjs")
+// const express_async_handler = require('express-async-handler')
+// const webtoken = require("jsonwebtoken")
+// const cors = require("cors")
+// const bcryptjs = require("bcryptjs")
 
 const app = express()
 
