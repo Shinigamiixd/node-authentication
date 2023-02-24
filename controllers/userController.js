@@ -84,7 +84,7 @@ const getUsers = asyncHandler(async (req, res) => {
             },
         },
         {
-            $match: { role: "user" },
+            $match: {role:{$in:["user", "admin"]}},
         },
         {
             $unset: [
